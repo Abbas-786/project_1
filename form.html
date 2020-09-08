@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <p align="right"><a href="FORM_CODE.html" target="_blank" title="view code">View Code</a></p>
+    <h1><u>User Registration Form</u></h1>
+    <hr>
+    <h2>Personal Information:</h2>
+    <form>
+        <label for="first_name"><b>1. First Name:</b></label>
+        <br>
+        <input type="text" name="first_name" placeholder="Enter Your First Name">
+        <br>
+        <br>
+        <label for="last_name"><b>2. Last Name:</b></label>
+        <br>
+        <input type="text" name="last_name" placeholder="Enter Your Last Name">
+        <br>
+        <br>
+        <label for="gender"><b>3. Your Gender:</b></label>
+        <br>
+        <input type="radio" name="gender"><b>Male:</b><br>
+        <input type="radio" name="gender"><b>Female:</b><br>
+        <input type="radio" name="gender"><b>Other:</b><br>
+        <br>
+        <b>4. Address:</b> <textarea name="address" cols="30" rows="5">Enter Address Here</textarea>
+        <hr>
+        <h2>Login Information:</h2>
+        <label for="username"><b>5. User Name:</b></label>
+        <br>
+        <input type="text" name="username" placeholder="Enter Your User Name">
+        <br>
+        <br>
+        <label for="password"><b>6. Password:</b></label>
+        <br>
+        <input type="password" name="password" placeholder="Enter Your Password">
+        <hr>
+        <h2>Other Information:</h2>
+        <label for="gender"><b>7. Subscribe me to:</b></label>
+        <br>
+        <input type="checkbox" name="ck1"><b>E-Mails:</b><br>
+        <input type="checkbox" name="ck2"><b>Newsletters:</b><br>
+        <input type="checkbox" name="ck3"><b>Text Alert:</b><br>
+        <br>
+        <label for="game"><b>8. Enter Your Favourite Game:</b></label>
+        <select name="game-options">
+            <option value="op1" selected></option>
+            <option value="op2">Cricket</option>
+            <option value="op3">Football</option>
+            <option value="op4">Volleyball</option>
+            <option value="op5">Badminton</option>
+        </select>
+        <br>
+        <label for="social_cause"><b>9. What would be your favourite social cause?</b></label>
+        <select name="social_cause-options" multiple>
+            <option value="op1">Conserve water</option>
+            <option value="op2">Enviroment</option>
+            <option value="op3">Education for All</option>
+            <option value="op4">Poverty Eradication</option>
+        </select>
+        <br>
+        <hr>
+        <br>
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
